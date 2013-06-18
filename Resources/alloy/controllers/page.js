@@ -33,6 +33,7 @@ function Controller() {
     $.__views.pagina.add($.__views.scrollView);
     $.__views.image = Ti.UI.createImageView({
         height: "25%",
+        width: "100%",
         id: "image"
     });
     $.__views.scrollView.add($.__views.image);

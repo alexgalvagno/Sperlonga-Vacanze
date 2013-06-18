@@ -55,7 +55,8 @@
 }
 
 "#image": {
-	height: '25%'
+	height: '25%',
+	width: '100%'
 }
 
 "#contact_sx": {
