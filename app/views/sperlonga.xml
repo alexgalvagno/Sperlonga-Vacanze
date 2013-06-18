@@ -1,0 +1,8 @@
+<Alloy>
+    <Window id="sperlonga" title="SPERLONGA">
+    	<ImageView image="/images/loghi.png" />
+		<ActivityIndicator id="activityIndicator" message="Loading ..."/>
+	    <TableView id="table" onClick="openPage">
+		</TableView>
+    </Window>
+</Alloy>

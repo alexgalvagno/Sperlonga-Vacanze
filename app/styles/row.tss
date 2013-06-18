@@ -1,0 +1,36 @@
+".row[platform=android]": {
+    backgroundImage:"/images/bg_row.png"
+}
+
+"#row": {
+	height: '50dp',
+    className: 'itemRow'
+}
+
+"#title": {
+	height: Titanium.UI.FILL,
+    font: {
+        fontSize: '16dp',
+        fontWeight: 'bold'
+    },
+    color:'#000000',
+    left: '10dp',
+    top:'0',
+    touchEnabled: false
+}
+
+"#title[platform=ios]": {
+	font: {
+        fontSize: '14dp'
+    }
+}
+
+"#rate": {
+	height: Titanium.UI.FILL,
+	right: 0,
+	layout:"horizontal"
+}
+
+"#rate[platform=ios]": {
+	top: 15
+}

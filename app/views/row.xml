@@ -1,0 +1,9 @@
+<Alloy>
+	<TableViewRow class="row">
+		<View layout="horizontal">
+			<Label id="title"/>
+			<View id="rate">
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

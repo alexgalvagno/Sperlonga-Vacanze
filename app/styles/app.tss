@@ -1,0 +1,8 @@
+"Window": {
+	top:"0dp",
+    left:"0dp",
+    backgroundImage:"images/background.jpg",
+    layout:"vertical",
+    zIndex:0,
+    orientationModes: [Ti.UI.PORTRAIT]
+}

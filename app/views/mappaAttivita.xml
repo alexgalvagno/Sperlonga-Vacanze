@@ -1,0 +1,7 @@
+<Alloy>
+    <Window id="win">
+    	<View id="header" onClick="closePage" platform="android">
+			<Label id="title"/>
+		</View>
+    </Window>
+</Alloy>

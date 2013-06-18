@@ -1,0 +1,16 @@
+<Alloy>
+	<TabGroup>
+		<Tab id="sperlongaTab" title="SPERLONGA">
+			<Require src="sperlonga" type="view" />
+		</Tab>
+		<Tab id="attivitaTab" title="ATTIVITÀ">
+			<Require src="attivita" type="view" />
+		</Tab>
+		<Tab id="eventiTab" title="EVENTI">
+			<Require src="eventi" type="view" />
+		</Tab>
+		<Tab title="MAPPA">
+			<Require src="mappa" type="view" />
+		</Tab>
+	</TabGroup>
+</Alloy>

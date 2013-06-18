@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="pagina" layout="vertical">
+		<View id="header" onClick="closePage" platform="android">
+			<Label id="title"/>
+		</View>
+		<ActivityIndicator id="activityIndicator" message="Loading ..."/>
+		<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false">
+			<ImageView id="image"/>
+			<View height="Titanium.UI.SIZE">
+				<View id="contact_sx"></View>
+				<View id="contact_dx"></View>
+			</View>
+			<Label id="testo"/>
+		</ScrollView>
+	</Window>
+</Alloy>

@@ -1,0 +1,74 @@
+"Window[platform=android]": {
+    navBarHidden: true
+}
+
+"#header":{
+	width: Titanium.UI.FILL,
+	height: '40dp',
+	layout: 'horizontal',
+	backgroundImage: '/images/bg_header.jpg',
+	top: 0,
+	left: 0
+}
+
+"#header[formFactor=tablet]":{
+	height:'60dp'
+}
+
+"#title": {
+    width: '80%',
+    font: {
+        fontSize: '16dp'
+    },
+    color:'#000000',
+    left: '5%',
+    top:'10dp',
+    touchEnabled: false
+}
+
+"#title[formFactor=tablet]": {
+	font: {
+        fontSize: '24dp'
+    }
+}
+
+"#testo": {
+    font: {
+        fontSize: '12dp'
+    },
+    color:'#000000',
+    left: '10dp',
+    right: '10dp',
+    top:'10dp',
+    touchEnabled: false
+}
+
+"#testo[formFactor=tablet]": {
+	font: {
+        fontSize: '22dp'
+    }
+}
+
+"#scrollView":{
+	layout:'vertical',
+	top:0
+}
+
+"#image": {
+	height: '25%'
+}
+
+"#contact_sx": {
+	width: '50%',
+	height: Titanium.UI.SIZE,
+	layout: 'horizontal',
+	top: '10dp',
+	left: 0
+}
+
+"#contact_dx": {
+	width: '50%',
+	height: Titanium.UI.SIZE,
+	top: '10dp',
+	right: 0
+}

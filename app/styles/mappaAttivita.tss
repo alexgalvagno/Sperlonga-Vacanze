@@ -1,0 +1,27 @@
+"Window[platform=android]": {
+    navBarHidden: true
+}
+
+"#header":{
+	width: Titanium.UI.FILL,
+	height: '40dp',
+	layout: 'horizontal',
+	backgroundImage: '/images/bg_header.jpg',
+	top: 0,
+	left: 0
+}
+
+"#header[formFactor=tablet]":{
+	height:'60dp'
+}
+
+"#title": {
+    width: '80%',
+    font: {
+        fontSize: '16dp'
+    },
+    color:'#000000',
+    left: '5%',
+    top:'10dp',
+    touchEnabled: false
+}

@@ -1,0 +1,6 @@
+<Alloy>
+    <Window id="win">
+    	<View id="categorie" layout="horizontal" height="Ti.UI.SIZE" backgroundColor="#ffffff" top="0" left="0">
+    	</View>
+    </Window>
+</Alloy>

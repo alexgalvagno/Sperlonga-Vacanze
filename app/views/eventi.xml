@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="eventi" title="EVENTI'">
+    	<ImageView image="/images/loghi.png" />
+		<ActivityIndicator id="activityIndicator" message="Loading ..."/>
+	    <TableView id="table" onClick="openEvento">
+		</TableView>
+    </Window>
+</Alloy>

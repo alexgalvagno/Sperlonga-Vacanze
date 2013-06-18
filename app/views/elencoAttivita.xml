@@ -1,0 +1,11 @@
+<Alloy>
+    <Window id="elencoAttivita">
+		<View id="header" onClick="closePage" platform="android">
+			<Label id="title"></Label>
+		</View>
+    	<ImageView image="/images/loghi.png" />
+		<ActivityIndicator id="activityIndicator" message="Loading ..."/>
+	    <TableView id="table" onClick="openPage">
+		</TableView>
+    </Window>
+</Alloy>
