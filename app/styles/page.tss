@@ -55,7 +55,9 @@
 }
 
 "#image": {
-	height: '25%',
+	defaultImage: '/images/wait.png',
+	height: Titanium.UI.SIZE,
+	top: 0,
 	width: '100%'
 }
 
