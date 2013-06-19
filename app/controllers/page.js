@@ -8,7 +8,8 @@ else if(args.type === 'attivita') var URL = "http://www.sperlongavacanze.it/app/
 else var URL = "http://www.sperlongavacanze.it/app/getEvento.php";
 
 $.pagina.addEventListener('android:back',function(){    
-    $.pagina.close();		
+    $.pagina.close();	
+    $.image.image = null;	
 });
 
 if(isAndroid) $.title.text = args.title;
@@ -96,6 +97,21 @@ xhr.onload = function() {
 			});
 		}
 		
+		if(punto.tel != ''){
+			var tel = Ti.UI.createImageView({
+				image: '/images/tel.png',
+				right: '5dp'
+			});
+			
+			$.contact_dx.add(tel);
+			
+			tel.addEventListener('click', function (e) {
+				var url = "tel://" + punto.tel;
+				
+				Ti.Platform.openURL(url); 
+			});
+		}
+		
 		if(punto.skype != ''){
 			var skype = Ti.UI.createImageView({
 				image: '/images/skype.png',
@@ -145,4 +161,5 @@ xhr.send(parms);
 
 function closePage () {
 	$.pagina.close();
+    $.image.image = null;
 }
